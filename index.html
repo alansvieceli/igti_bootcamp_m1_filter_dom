@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="./css/reset.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link type="text/css" rel="stylesheet" href="./css/style.css" />
+    <title>Desafio Final 01</title>
+  </head>
+  <body>
+    <h1>Pesquisa de Usuários</h1>
+    <center id="loading">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue-only">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </center>
+    <div id="div_error">
+      <span id="error"></span>
+    </div>
+    <div class="row">
+      <div class="input-field col s11">
+        <input
+          placeholder="Digite alguma coisa aqui"
+          id="edtSearch"
+          type="text"
+          class="validate"
+        />
+        <label for="edtSearch">Buscar</label>
+      </div>
+      <div class="input-field col s1">
+        <a class="waves-effect waves-light btn" id="btSearch">Buscar</a>
+      </div>
+      <div class="col s6">
+        <div class="card">
+          <div class="card-content black-text">
+            <span class="card-title" id="user_title"
+              >Nenhum usuário filtrado</span
+            >
+            <div id="users"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col s6">
+        <div class="card">
+          <div class="card-content black-text">
+            <span class="card-title" id="statistics_title"
+              >Nada para ser exibido</span
+            >
+            <div id="statistics"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./js/materialize.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>

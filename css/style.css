@@ -1,0 +1,49 @@
+body {
+  padding: 15px;
+  font-family: monospace, serif;
+  background-color: #faf9f9;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+card-title {
+  text-align: left;
+}
+
+img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.loading_hide {
+  display: none;
+}
+
+#div_error {
+  text-align: center;
+}
+
+#error {
+  color: red;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+}
+
+div ul li {
+  margin: 5px;
+}
+
+div ul li span {
+  margin: 5px;
+}
+
+img {
+  vertical-align: middle; /* | top | bottom */
+}
